@@ -1,0 +1,35 @@
+Command:
+   Main: "tsgrename"
+   Aliases: 
+      - "rnm" 
+Settings:
+   bannedRenames: 
+    - "Fuck"
+    - "Shit"
+   bannedItems: 
+    - "DIRT"
+   renameCooldown: 5 #Cooldown in seconds [0 to disable]
+Messages:
+    prefix: "&0[&cTSG&fRename&0]"
+    not-player: "%prefix%&cOnly player can execute this command!"
+    not-item-in-hand: "%prefix%&cYou haven't item in hand!"
+    incorrect-usage: "%prefix%&cIncorrect usage! Try /tsgrename help!"
+    title-not-valid: "%prefix%&cTitle not valid because contains %invalid%"
+    item-not-valid: "%prefix%&c%item% cannot be renamed!"
+    wait: "%prefix%&cWait %time% second(s) to rename this item!"
+    help:
+       - "%prefix%&aTSGRename help:"
+       - "&e/tsgrename help"
+       - "&e/tsgrename reload"
+       - "&e/tsgrename rename <title>"
+       - "&e/tsgrename addlore <newline>"
+       - "&e/tsgrename setlore <lore>"
+       - "&4REMEMBER:"
+       - "To do new line when use setlore append %n% at the end of line."
+       - "To remove displayname/lore use %null% (ex. /tsgrename rename %null%)."
+    on-reload: "&aConfig has been reloaded!"
+    on-rename: "&aItem successfull renamed to %title%!"
+    on-lore-add: "&aNew lore line added: %newline%"
+    on-lore-set: "&aNew lore setted: %lore%"
+    no-permission: "&cYou do not have permission!"
+

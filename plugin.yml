@@ -1,0 +1,20 @@
+name: TSGRename
+version: 1.0
+main: tsg.rename.main.TSGRename
+author: TSGSamu18
+commands:
+    help: 
+       usage: /tsgrename help
+       permission: tsgrename.help
+    reload: 
+       usage: /tsgrename reload
+       permission: tsgrename.reload
+    rename:    
+       usage: /tsgrename rename <title>
+       permission: tsgrename.rename
+    addlore:    
+       usage: /tsgrename addlore <newline>
+       permission: tsgrename.addlore
+    setlore:    
+       usage: /tsgrename setlore <lore>
+       permission: tsgrename.setlore
